@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import funcionPrincipal, { functionExportada as aliasDeLaFuncion, configuracionesGlobales } from './ejemplos/modulo.js'
 import VariablesEjemplo from './ejemplos/variables.js'
+import { Ejemplothis } from './ejemplos/funciones-flecha.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -31,4 +32,7 @@ setupCounter(document.querySelector('#counter'))
 
 // funcionPrincipal();
 
-VariablesEjemplo();
+//VariablesEjemplo();
+window.nombre = 'Claudia';
+Ejemplothis();
+
