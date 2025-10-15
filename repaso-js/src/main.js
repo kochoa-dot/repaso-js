@@ -3,6 +3,7 @@ import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import funcionPrincipal, { functionExportada as aliasDeLaFuncion, configuracionesGlobales } from './ejemplos/modulo.js'
+import VariablesEjemplo from './ejemplos/variables.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -24,8 +25,10 @@ document.querySelector('#app').innerHTML = `
 
 setupCounter(document.querySelector('#counter'))
 
-aliasDeLaFuncion();
+// aliasDeLaFuncion();
  
-console.log(configuracionesGlobales.idioma);
+// console.log(configuracionesGlobales.idioma);
 
-funcionPrincipal();
+// funcionPrincipal();
+
+VariablesEjemplo();
