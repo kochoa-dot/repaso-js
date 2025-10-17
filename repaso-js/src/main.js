@@ -6,6 +6,7 @@ import funcionPrincipal, { functionExportada as aliasDeLaFuncion, configuracione
 import VariablesEjemplo from './ejemplos/variables.js'
 import { Ejemplothis } from './ejemplos/funciones-flecha.js'
 import TemplateStringsEjemplo from './ejemplos/template-strings.js'
+import OperadorTernarioEjemplo from './ejemplos/operador-ternario.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -38,4 +39,6 @@ window.nombre = 'Claudia';
 Ejemplothis();
 
 TemplateStringsEjemplo();
+
+OperadorTernarioEjemplo();
 
