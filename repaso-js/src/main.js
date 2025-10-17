@@ -5,6 +5,7 @@ import { setupCounter } from './counter.js'
 import funcionPrincipal, { functionExportada as aliasDeLaFuncion, configuracionesGlobales } from './ejemplos/modulo.js'
 import VariablesEjemplo from './ejemplos/variables.js'
 import { Ejemplothis } from './ejemplos/funciones-flecha.js'
+import TemplateStringsEjemplo from './ejemplos/template-strings.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -35,4 +36,6 @@ setupCounter(document.querySelector('#counter'))
 //VariablesEjemplo();
 window.nombre = 'Claudia';
 Ejemplothis();
+
+TemplateStringsEjemplo();
 
