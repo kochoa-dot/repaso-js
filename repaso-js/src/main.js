@@ -7,6 +7,7 @@ import VariablesEjemplo from './ejemplos/variables.js'
 import { Ejemplothis } from './ejemplos/funciones-flecha.js'
 import TemplateStringsEjemplo from './ejemplos/template-strings.js'
 import OperadorTernarioEjemplo from './ejemplos/operador-ternario.js'
+import LiteralesDeObjetosMejorado from './ejemplos/literales-objeto-mejorado.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -41,4 +42,6 @@ Ejemplothis();
 TemplateStringsEjemplo();
 
 OperadorTernarioEjemplo();
+
+LiteralesDeObjetosMejorado();
 
