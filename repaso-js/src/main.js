@@ -8,6 +8,7 @@ import { Ejemplothis } from './ejemplos/funciones-flecha.js'
 import TemplateStringsEjemplo from './ejemplos/template-strings.js'
 import OperadorTernarioEjemplo from './ejemplos/operador-ternario.js'
 import LiteralesDeObjetosMejorado from './ejemplos/literales-objeto-mejorado.js'
+import DestructurarEjemplo from './ejemplos/destructurar.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -37,11 +38,12 @@ setupCounter(document.querySelector('#counter'))
 
 //VariablesEjemplo();
 window.nombre = 'Claudia';
-Ejemplothis();
+// Ejemplothis();
 
-TemplateStringsEjemplo();
+// TemplateStringsEjemplo();
 
-OperadorTernarioEjemplo();
+// OperadorTernarioEjemplo();
 
-LiteralesDeObjetosMejorado();
+// LiteralesDeObjetosMejorado();
 
+DestructurarEjemplo();
