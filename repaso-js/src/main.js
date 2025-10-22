@@ -9,6 +9,7 @@ import TemplateStringsEjemplo from './ejemplos/template-strings.js'
 import OperadorTernarioEjemplo from './ejemplos/operador-ternario.js'
 import LiteralesDeObjetosMejorado from './ejemplos/literales-objeto-mejorado.js'
 import DestructurarEjemplo from './ejemplos/destructurar.js'
+import OperadorSpread from './ejemplos/spread.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -46,4 +47,6 @@ window.nombre = 'Claudia';
 
 // LiteralesDeObjetosMejorado();
 
-DestructurarEjemplo();
+// DestructurarEjemplo();
+
+OperadorSpread();
