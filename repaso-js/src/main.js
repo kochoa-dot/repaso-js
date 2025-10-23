@@ -11,6 +11,7 @@ import LiteralesDeObjetosMejorado from './ejemplos/literales-objeto-mejorado.js'
 import DestructurarEjemplo from './ejemplos/destructurar.js'
 import OperadorSpread from './ejemplos/spread.js'
 import { Cuadrado, Rectangulo } from './ejemplos/clase.js'
+import MapEjemplo from './ejemplos/arreglo-map.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -27,6 +28,9 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
+  </div>
+  <div id="listado">
+
   </div>
 `
 
@@ -67,3 +71,7 @@ rectangulo2.area();
 //Podemos utilizar clases para definir unidades las cuales van a tener datos y comportamiento y luego podemos utilizar esas unidades en cualquier parte de la aplicación a través de la instanciación
 const cuadrado1 = new Cuadrado(5);
 cuadrado1.area();
+
+const lista = MapEjemplo();
+
+document.querySelector("#listado").innerHTML = lista;
