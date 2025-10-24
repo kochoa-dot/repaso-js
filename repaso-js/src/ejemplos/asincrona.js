@@ -20,6 +20,8 @@ export async function AsyncAwait(){
     try{
         const respuesta = await fetch('https://jsonplaceholder.typicode.com/todos/1');
         //Esta siguiente linea se ejecutará hasta que termine nuestra función asincrona sin que eso signifique congelar nuestra aplicacion
+        //Colocando Debugger podemos congelar nuestra aplicación en este punto para verificar lo que tienen nuestras variables en ese punto
+        debugger;
         const json = await respuesta.json();
         console.log(json);
     } catch(error){
