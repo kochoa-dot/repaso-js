@@ -12,6 +12,7 @@ import DestructurarEjemplo from './ejemplos/destructurar.js'
 import OperadorSpread from './ejemplos/spread.js'
 import { Cuadrado, Rectangulo } from './ejemplos/clase.js'
 import MapEjemplo from './ejemplos/arreglo-map.js'
+import { AsyncAwait, Promesa } from './ejemplos/asincrona.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -75,3 +76,5 @@ cuadrado1.area();
 const lista = MapEjemplo();
 
 document.querySelector("#listado").innerHTML = lista;
+
+AsyncAwait();
